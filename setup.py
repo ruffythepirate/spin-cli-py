@@ -39,5 +39,7 @@ setup(
     zip_safe=False,
     install_requires=inst_reqs,
     extras_require=extra_reqs,
-    entry_points={"console_scripts": ["spin_cli_py = spin_cli_py.scripts.cli:spin_cli_py"]},
+    entry_points={
+        "console_scripts": ["spin_cli_py = spin_cli_py.scripts.cli:spin_cli_py"]
+    },
 )
